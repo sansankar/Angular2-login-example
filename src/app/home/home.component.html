@@ -1,0 +1,35 @@
+<div *ngIf="!dashboard">
+  
+      <table>
+          <tr>
+              <th>Username</th>
+              <th>Password</th>
+          </tr>
+          <tr *ngFor="let item of userList">
+              <td>{{item.name}}</td>
+              <td>{{item.password}}</td>
+          </tr>
+      </table>
+      
+      <form  [formGroup]="login" (submit)="onSubmitClick()">
+           <div  class="container">
+               <label>UserName</label>
+              <input class="input" type="text" placeholder="UserName" formControlName="name"/>
+             
+
+              <label>Password</label>
+              <input class="input1" type="text" placeholder="Password" formControlName="password" />
+              
+              <div  style=" margin: 3px 6px 4px 85px"><button class="button" type="submit" [disabled]="!login.valid">SignIn</button>
+              
+              <button class="button1" type="SignUp">SignUp</button></div>
+            </div>
+
+          
+
+
+      </form>
+      
+  </div>
+  
+  <app-login [userName]="userName" *ngIf="dashboard" (onHome)="onHomeClick()"></app-login>

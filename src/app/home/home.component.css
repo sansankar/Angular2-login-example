@@ -1,0 +1,49 @@
+.container {
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 20px 16px;
+    width: 28%;
+    height: 152px;
+    text-align: center;
+    margin: 82px auto;
+}
+.input
+{
+    margin: 11px 44px;
+    padding: 6px 17px;
+}
+.input1
+{
+    margin: 11px 45px 7px 54px;
+    padding: 6px 18px;
+}
+
+
+.button{
+    margin: 14px 0px 9px 28px;
+    border-radius: 10px;
+    padding: 7px 28px 7px 32px;
+    background-color: yellowgreen;
+    border-color: transparent;
+    cursor: pointer;
+}
+.button1{
+    margin: 14px 25px 7px 5px;
+    border-radius: 10px;
+    padding: 7px 25px 7px 32px;
+    background-color: tomato;
+    cursor: pointer;
+    border-color: transparent;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+ 
+
+

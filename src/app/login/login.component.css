@@ -1,0 +1,12 @@
+.hello{
+    text-align: center;
+    color: red;
+}
+button{
+    margin: 14px 25px 7px 5px;
+    border-radius: 10px;
+    padding: 7px 25px 7px 32px;
+    background-color: tomato;
+    cursor: pointer;
+    border-color: transparent;
+}
